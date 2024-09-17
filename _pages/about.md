@@ -14,8 +14,25 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I’m Wen-Yi Hsiao (wayne391), currently a Senior Research Engineer at Taiwan AILabs.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I specialize in Multimedia Research and Engineering, focusing on Music, Audio, Digital Signal Processing (DSP), and Computer Vision.    
+As a researcher, I've published over 10 papers with more than 1,000 citations.  
+As an engineer, I’ve contributed several tools to the community, earning over 2,500 stars on GitHub.  
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I hold both a B.Sc. and M.Sc. in Computer Science from [National Tsing Hua University](https://www.nthu.edu.tw/), where I was advised by Dr. [Yi-Hsuan Yang](https://affige.github.io/). Throughout my journey, I've collaborated with many incredible people and worked on exciting projects. 
+
+The topics I've engaged include:
+* Music Generation
+* Music Understanding
+* Audio Effect Modeling
+For more details, feel free to check out my [slides introducing my work experience](https://docs.google.com/presentation/d/1yQgeV4nE4nXBTuv4hxB11M_98OYn6chD7o9HGma7WAE/edit?usp=sharing).
+
+
+Outside of work, I enjoy developing DSP plugins, hanging out with musician friends, and playing the piano.
+
+I’m currently open to new opportunities!
+Feel free to reach out if you'd like to discuss new ideas, job opportunities, or potential collaborations.
+
+
+
