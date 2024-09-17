@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Senior Research Engineer@<a href="https://ailabs.tw/">Taiwan AILabs</a>
 
@@ -38,6 +38,7 @@ Outside of work, I enjoy developing DSP plugins, 3D modeling, and [playing the p
 <br/>
 
 ***I’m currently exploring new challenges and possibilities!***   
+***I will attend ISMIR'24@San Francisco***   
 Feel free to reach out if you'd like to discuss new ideas, potential collaborations, or job opportunities.
 
 
