@@ -29,9 +29,10 @@ The topics I've engaged include:
 For more details, feel free to check out my [slides introducing my work experience](https://docs.google.com/presentation/d/1yQgeV4nE4nXBTuv4hxB11M_98OYn6chD7o9HGma7WAE/edit?usp=sharing).
 
 
-Outside of work, I enjoy developing DSP plugins, hanging out with musician friends, and playing the piano.
+Outside of work, I enjoy developing DSP plugins, 3D modeling, and playing the piano.
+I love jazz and contemporary music. My favorite bands/musicians (from old to new) are Bach, Beethoven, Nikolai Kapusin, Scriabin, Herbie Hancock and Snarky Puppy.
 
-I’m currently open to new opportunities!
+***I’m currently exploring new challenges and possibilities!***
 Feel free to reach out if you'd like to discuss new ideas, job opportunities, or potential collaborations.
 
 
