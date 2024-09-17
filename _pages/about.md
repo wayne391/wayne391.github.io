@@ -14,7 +14,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I’m Wen-Yi Hsiao (wayne391).
+Hi! I’m **Wen-Yi Hsiao (wayne391)**, 蕭文逸.
 
 I specialize in Multimedia Research and Engineering.   
 Specifically, they are **Music, Audio, Digital Signal Processing, and Computer Vision**.    
