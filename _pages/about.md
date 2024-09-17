@@ -27,6 +27,9 @@ where I was advised by [**Dr. Yi-Hsuan Yang**](https://affige.github.io/).
 I've met many amazing people and worked on many exciting projects along the journey.   
 For more details, feel free to check out my **[slides](https://docs.google.com/presentation/d/1yQgeV4nE4nXBTuv4hxB11M_98OYn6chD7o9HGma7WAE/edit?usp=sharing)** introducing my works.
 
+<br/>
+<br/>
+<br/>
 ---
 <br/>
 
