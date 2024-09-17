@@ -16,10 +16,10 @@ social: true # includes social icons at the bottom of the page
 
 Hi! I’m Wen-Yi Hsiao (wayne391).
 
-I specialize in Multimedia Research and Engineering,   
-focusing on Music, Audio, Digital Signal Processing (DSP), and Computer Vision.    
-* As a researcher, I've published over 10 [publications]() with more than 1,1k citations.  
-* As an engineer, I’ve contributed several [projects]() to GitHub, earning over 2.5k stars.  
+I specialize in Multimedia Research and Engineering.   
+specifically, they are Music, Audio, Digital Signal Processing, and Computer Vision.    
+* As a **Researcher**, I've published over 10 [publications]() with more than 1,1k citations.  
+* As an **Engineer**, I’ve contributed several [projects]() to GitHub, earning over 2.5k stars.  
 
 I received my B.S. & M.S. in Computer Science from [National Tsing Hua University](https://www.nthu.edu.tw/),   
 where I was advised by Dr. [Yi-Hsuan Yang](https://affige.github.io/).     
