@@ -14,12 +14,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I’m **Wen-Yi Hsiao (wayne391)**, **蕭文逸**.
+Hi! I’m **Wen-Yi Hsiao, 蕭文逸**.
 
-I specialize in Multimedia Research and Engineering.   
-Specifically, they are **Music, Audio, Digital Signal Processing, and Computer Vision**.    
-* As a **Researcher**, I've published over **[10** publications]()** with more than **1.1k** cites.  
-* As an **Engineer**, I’ve contributed **[several projects**]()** to GitHub with over **2.5k** stars.  
+I specialize in Multimedia Research and Engineering, including
+**Music, Audio, Sound Design, DSP, and Vision**.    
+* As a **Researcher**, I've published over **[10 publications]()** with more than **1.1k** cites.  
+* As an **Engineer**, I’ve contributed **[several projects]()** to GitHub with over **2.5k** stars.  
 
 I received my **B.S.** & **M.S.** in **Computer Science** from [**National Tsing Hua University**](https://www.nthu.edu.tw/),   
 where I was advised by [**Dr. Yi-Hsuan Yang**](https://affige.github.io/).     
