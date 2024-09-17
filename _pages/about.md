@@ -18,21 +18,21 @@ Hi! I’m **Wen-Yi Hsiao (wayne391)**, 蕭文逸.
 
 I specialize in Multimedia Research and Engineering.   
 Specifically, they are **Music, Audio, Digital Signal Processing, and Computer Vision**.    
-* As a **Researcher**, I've published over **10** [publications]() with more than **1.1k** citations.  
-* As an **Engineer**, I’ve contributed several [projects]() to GitHub, earning over **2.5k** stars.  
+* As a **Researcher**, I've published over [**10** publications]() with more than **1.1k** cites.  
+* As an **Engineer**, I’ve contributed several [projects]() to GitHub with over **2.5k** stars.  
 
-I received my **B.S.** & **M.S.** in **Computer Science** from [National Tsing Hua University](https://www.nthu.edu.tw/),   
+I received my **B.S.** & **M.S.** in **Computer Science** from **[National Tsing Hua University](https://www.nthu.edu.tw/)**,   
 where I was advised by **[Dr. Yi-Hsuan Yang](https://affige.github.io/)**.     
 
 I've met many amazing people and worked on many exciting projects along the journey.   
-For more details, feel free to check out my [slides introducing my work experience](https://docs.google.com/presentation/d/1yQgeV4nE4nXBTuv4hxB11M_98OYn6chD7o9HGma7WAE/edit?usp=sharing).
+For more details, feel free to check out my [**slides** introducing my work experience](https://docs.google.com/presentation/d/1yQgeV4nE4nXBTuv4hxB11M_98OYn6chD7o9HGma7WAE/edit?usp=sharing).
 
 ☸ ☸ ☸ ☸ ☸ ☸ ☸ ☸ ☸ ☸ 
 <br/>
 
-I love jazz and contemporary music.   
+I love **jazz** and **contemporary music**.   
 
-My favorite bands/musicians (listed from old to new) are Bach, Beethoven, George Gershwin, Nikolai Kapusin, Scriabin, Herbie Hancock, Incognito, guthrie govan, Snarky Puppy, Vulfpeck and etc.
+My favorite **bands/musicians** (listed from old to new) are Bach, Beethoven, George Gershwin, Nikolai Kapusin, Scriabin, Herbie Hancock, Incognito, guthrie govan, Snarky Puppy, Vulfpeck and etc.
 
 Outside of work, I enjoy **developing plugins**, **3D modeling**, and **[playing the piano]()**.  
 
