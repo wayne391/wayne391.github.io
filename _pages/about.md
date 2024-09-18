@@ -28,21 +28,16 @@ I've met many amazing people and worked on many exciting projects along the jour
 For more details, feel free to check out my **[slides](https://docs.google.com/presentation/d/1yQgeV4nE4nXBTuv4hxB11M_98OYn6chD7o9HGma7WAE/edit?usp=sharing)** introducing my works.
 
 <br/>
-<br/>
----
-<br/>
 
-I love Jazz and Contemporary Music.   
+Outside of work, I learn and play piano. 
+I love Classical, Jazz, Contemporary Music and any modern stuff.   
+Checkout my **[YouTube Channel](https://www.youtube.com/@HsiaoWenYi-391).**
 
 My favorite Bands or Musicians (listed from old to new) are Bach, Beethoven, George Gershwin, Nikolai Kapusin,   
 Scriabin, Herbie Hancock, Incognito, guthrie govan, Snarky Puppy, Vulfpeck and etc.
 
-Outside of work, I enjoy **developing plugins**, **3D modeling**, and **[playing the piano](https://www.youtube.com/@HsiaoWenYi-391)**.  
 
-<br/>
-<br/>
 ---
-<br/>
 
 ***I’m currently exploring new challenges and possibilities!***   
 ***I will attend ISMIR'24@San Francisco.***   
