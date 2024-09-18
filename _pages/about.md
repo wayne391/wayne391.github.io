@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi! I’m **Wen-Yi Hsiao, 蕭文逸**.
 
-I specialize in Multimedia Research and Engineering, including
+I specialize in Multimedia Research and Engineering, including:   
 **Music, Audio, Sound Design, DSP, and Vision**.    
 * As a **Researcher**, I've published over **[10 publications]()** with more than **1.1k** cites.  
 * As an **Engineer**, I’ve contributed **[several projects]()** to GitHub with over **2.5k** stars.  
@@ -29,7 +29,6 @@ For more details, feel free to check out my **[slides](https://docs.google.com/p
 
 <br/>
 <br/>
-<br/>
 ---
 <br/>
 
@@ -38,8 +37,10 @@ I love Jazz and Contemporary Music.
 My favorite Bands or Musicians (listed from old to new) are Bach, Beethoven, George Gershwin, Nikolai Kapusin,   
 Scriabin, Herbie Hancock, Incognito, guthrie govan, Snarky Puppy, Vulfpeck and etc.
 
-Outside of work, I enjoy **developing plugins**, **3D modeling**, and **[playing the piano]()**.  
+Outside of work, I enjoy **developing plugins**, **3D modeling**, and **[playing the piano](https://www.youtube.com/@HsiaoWenYi-391)**.  
 
+<br/>
+<br/>
 ---
 <br/>
 
