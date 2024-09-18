@@ -27,10 +27,9 @@ where I was advised by [**Dr. Yi-Hsuan Yang**](https://affige.github.io/).
 I've met many amazing people and worked on many exciting projects along the journey.   
 For more details, feel free to check out my **[slides](https://docs.google.com/presentation/d/1yQgeV4nE4nXBTuv4hxB11M_98OYn6chD7o9HGma7WAE/edit?usp=sharing)** introducing my works.
 
-<br/>
-
-Outside of work, I learn and play piano. 
+Outside of work, I learn and play piano.   
 I love Classical, Jazz, Contemporary Music and any modern stuff.   
+
 Checkout my **[YouTube Channel](https://www.youtube.com/@HsiaoWenYi-391).**
 
 My favorite Bands or Musicians (listed from old to new) are Bach, Beethoven, George Gershwin, Nikolai Kapusin,   
