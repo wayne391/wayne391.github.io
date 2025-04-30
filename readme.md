@@ -1,3 +1,3 @@
 # My Personal Website
 
-URL: wayne391.github.io
+[Link](wayne391.github.io)
