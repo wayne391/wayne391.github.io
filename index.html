@@ -69,8 +69,38 @@
   }
 
   ul.paper-list li {
+    display: inline;
     margin-bottom: 4px;
   }
+
+
+  /* .paper-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 0;
+  margin: 0;
+} */
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin-bottom: 0.8em; /* Adds vertical space between items */
+}
+
+.bullet {
+  width: 0.3em;
+  height: 0.3em;
+  background: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.text {
+  font-size: 1em;
+  line-height: 1.4;
+}
 
   </style>
   <link rel="icon" href="images/logo.png">
@@ -170,17 +200,19 @@
 </table>
 <br><br>
 <section>
-  <div class="rt-container">
-        <div class="col-rt-12">
-            <div class="Scriptcontent">
-            
-          <!-- Start Tabs HTML -->
+
+
+<div class="rt-container">
+  <div class="col-rt-12">
+    <div class="Scriptcontent">     
+      <!-- Start Tabs HTML -->
       <div class="tabs">
 
 <input type="radio" id="tab1" name="tab-control" checked>
 <input type="radio" id="tab2" name="tab-control">
 <input type="radio" id="tab3" name="tab-control">  
 <input type="radio" id="tab4" name="tab-control">
+
 <ul>
   <li title="Publications"><label for="tab1" role="button"><span>Publications</span></label></li>
   <li title="Projects"><label for="tab2" role="button"><span>Projects</span></label></li>
@@ -191,20 +223,86 @@
 <div class="slider"><div class="indicator"></div></div>
 <div class="content">
   <section>
-    <h2>Features</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dolorem sequi, quo tempore in eum obcaecati atque quibusdam officiis est dolorum minima deleniti ratione molestias numquam. Voluptas voluptates quibusdam cum?</p>
+    <h2>Conference Proceedings</h2>
+
+    <div class="paper-list">
+      <div class="list-item">
+        <span class="bullet"></span>
+        <span class="text"><b>2024 ISMIR</b>: “Musicongen: Rhythm and chord control for transformer-based text-to-music generation.” <br/><span class="tag_ai">Txt2music</span> - <a href="https://arxiv.org/abs/2407.15060" target="_blank">Arxiv</a> | <a href="https://musicongen.github.io/musicongen_demo/" target="_blank">Demo</a> | <a href="https://github.com/YatingMusic/MusiConGen" target="_blank">GitHub</a> (2nd Author)</span>
+      </div>
+      <div class="list-item">
+        <span class="bullet"></span>
+        <span class="text"><b>2024 DAFx</b>: “Hyper recurrent neural network: Condition mechanisms for black-box audio effect modeling.” <br/><span class="tag_dsp">DSP / AFx</span> - <a href="https://arxiv.org/abs/2408.04829" target="_blank">Arxiv</a> | <a href="https://github.com/ytsrt66589/pyneuralfx/tree/main?tab=readme-ov-file" target="_blank">GitHub</a> (2nd Author)</span>
+      </div>
+      <div class="list-item">
+        <span class="bullet"></span>
+        <span class="text"> <b>2022 ICASSP</b>: “Towards automatic transcription of polyphonic electric guitar music” <br/><span class="tag_dsp">Analysis</span> - <a href="https://arxiv.org/abs/2202.09907" target="_blank">Arxiv</a> | <a href="https://ss12f32v.github.io/Guitar-Transcription/" target="_blank">Dataset</a> (2nd Author)</span>
+      </div>
+      <div class="list-item">
+        <span class="bullet"></span>
+        <span class="text"><b>2022 ISMIR</b>: “DDSP-based singing vocoders: A new subtractive-based synthesizer and a comprehensive evaluation.” <br/><span class="tag_dsp">Vocoder</span> - <a href="https://arxiv.org/abs/2208.04756" target="_blank">Arxiv</a> | <a href="https://ddspvocoder.github.io/ismir-demo/" target="_blank">Demo</a> | <a href="https://github.com/YatingMusic/ddsp-singing-vocoders/" target="_blank">GitHub</a> (co-1st Author)</span>
+      </div>
+      <div class="list-item">
+        <span class="bullet"></span>
+        <span class="text"><b>2021 EUSIPCO</b>: “Source separation-based data augmentation for improved joint beat and downbeat tracking.” <br/><span class="tag_dsp">Analysis</span> - <a href="https://arxiv.org/abs/2106.08703" target="_blank">Arxiv</a> | <a href="https://github.com/SunnyCYC/aug4beat" target="_blank">GitHub</a> (3rd Author)</span>
+      </div>
+      <div class="list-item">
+        <span class="bullet"></span>
+        <span class="text"><b>2021 AAAI</b>: “Compound word transformer: Learning to compose full-song music over dynamic directed hypergraphs.” <br/><span class="tag_ai">AI Music</span> - <a href="https://arxiv.org/abs/2101.02402" target="_blank">Arxiv</a> | <a href="https://github.com/YatingMusic/compound-word-transformer" target="_blank">GitHub</a> | <a href="2021-aaai.pdf">Slides</a> (1st Author)</span>
+      </div>
+      <div class="list-item">
+        <span class="bullet"></span>
+        <span class="text"><b>2020 ISMIR</b>: “Automatic composition of guitar tabs by transformers and groove modeling.”  <br/><span class="tag_ai">AI Music</span> - <a href="https://arxiv.org/abs/2008.01431" target="_blank">Arxiv</a> | <a href="https://ss12f32v.github.io/Guitar-Transformer-Demo/" target="_blank">Demo</a> | <a href="slides/2020-ismir.pdf">Slides</a> (3rd Author)</span>
+      </div> 
+      <div class="list-item">
+        <span class="bullet"></span>
+        <span class="text"><b>2020 MMSP</b>: “Mixing-specific data augmentation techniques for improved blind violin/piano source separation.” <br/><span class="tag_dsp">Separation</span> - <a href="https://arxiv.org/abs/2008.02480" target="_blank">Arxiv</a> | <a href="https://github.com/SunnyCYC/aug4mss" target="_blank">GitHub</a> (2nd Author)</span>
+      </div>
+      <div class="list-item">
+        <span class="bullet"></span>
+        <span class="text"><b>2018 AAAI</b>: “Musegan: Multi-track sequential generative adversarial networks for symbolic music generation and accompaniment.” <br/><span class="tag_ai">AI Music</span> - <a href="https://arxiv.org/abs/1709.06298" target="_blank">Arxiv</a> | <a href="https://github.com/salu133445/musegan" target="_blank">GitHub</a> (co-1st Author)</span>
+      </div>
+      <!-- <div class="list-item">
+        <span class="bullet"></span>
+        <span class="text">TEXT</span>
+      </div> -->
+
+      <h2>Journals</h2>
+      <div class="list-item">
+        <span class="bullet"></span>
+        <span class="text"><b>2021 JNMR</b>: “Automatic melody harmonization with triad chords: A comparative study.” <br/><span class="tag_ai">AI Music</span> - <a href="https://arxiv.org/abs/2001.02360" target="_blank">Arxiv</a> | <a href="https://github.com/wayne391/lead-sheet-dataset" target="_blank">GitHub</a> (2nd Author)</span>
+      </div>
+
+      <h2>Workshops</h2>
+      <div class="list-item">
+        <span class="bullet"></span>
+        <span class="text"><b>2019 ISMIR Late-Breaking</b>: “Jamming with yating: Interactive demonstration of a music composition AI.” <br/><span class="tag_hci">HCI</span> - <a href="https://archives.ismir.net/ismir2019/latebreaking/000003.pdf" target="_blank">Paper</a> | <a href="https://youtu.be/o4Hi1__sAh8?si=lwcCJpRRYtKkrqRJ" target="_blank">Demo</a> (1st Author)</span>
+      </div>
+      <div class="list-item">
+        <span class="bullet"></span>
+        <span class="text"><b>2019 ISMIR Late-Breaking</b>: “Learning to generate jazz and pop piano music from audio via MIR techniques.” <br/><span class="tag_hci">HCI</span> - <a href="https://archives.ismir.net/ismir2019/latebreaking/000005.pdf" target="_blank">Paper</a> (2nd Author)</span>
+      </div>
+
+    </div>
+          
+
   </section>
   <section>
-    <h2>Delivery Contents</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quas adipisci a accusantium eius ut voluptatibus ad impedit nulla, ipsa qui. Quasi temporibus eos commodi aliquid impedit amet, similique nulla.</p>
+    <h2>Projects</h2>
+      <p>working in progress</p>
   </section>
   <section>
-        <h2>Shipping</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nemo ducimus eius, magnam error quisquam sunt voluptate labore, excepturi numquam! Alias libero optio sed harum debitis! Veniam, quia in eum.</p>
+        <h2>Activities</h2>
+        <div class="list-item">
+          <span class="bullet"></span>
+          <span class="text">Silver Award, 9th Merry Electronics Master Thesis Award (4,500 USD) - <a href="https://www.merry.com.tw/thesis/upload/web/Winnerlist/Winner_list.pdf" target="_blank">Link</span>
+        </div>
+
   </section>
   <section>
-        <h2>Returns</h2>
-       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa dicta vero rerum? Eaque repudiandae architecto libero reprehenderit aliquam magnam ratione quidem? Nobis doloribus molestiae enim deserunt necessitatibus eaque quidem incidunt.</p>
-  </section>
+        <h2>Resources</h2>
+       <p> working in progress</p>
+      </section>
 </div>
 </div>
 <!-- End Tabs HTML -->
@@ -213,51 +311,6 @@
   </div>
   </div>
 </section>
-
-
-<br><br>
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
-    <tr><td><sectionheading>&nbsp;&nbsp;Publications</sectionheading></td></tr>
-</table>
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="8">
-    <tr><td>
-        <p><b>Conference Proceedings:</b></p>
-        <ul class="paper-list">
-        <li> <b>2024 ISMIR</b>: “Musicongen: Rhythm and chord control for transformer-based text-to-music generation.” <br/><span class="tag_ai">Txt2music</span> - <a href="https://arxiv.org/abs/2407.15060" target="_blank">Arxiv</a> | <a href="https://musicongen.github.io/musicongen_demo/" target="_blank">Demo</a> | <a href="https://github.com/YatingMusic/MusiConGen" target="_blank">GitHub</a> (2nd Author)</li>
-        <li> <b>2024 DAFx</b>: “Hyper recurrent neural network: Condition mechanisms for black-box audio effect modeling.” <br/><span class="tag_dsp">DSP / AFx</span> - <a href="https://arxiv.org/abs/2408.04829" target="_blank">Arxiv</a> | <a href="https://github.com/ytsrt66589/pyneuralfx/tree/main?tab=readme-ov-file" target="_blank">GitHub</a> (2nd Author)</li>
-        <li> <b>2022 ICASSP</b>: “Towards automatic transcription of polyphonic electric guitar music” <br/><span class="tag_dsp">Analysis</span> - <a href="https://arxiv.org/abs/2202.09907" target="_blank">Arxiv</a> | <a href="https://ss12f32v.github.io/Guitar-Transcription/" target="_blank">Dataset</a> (2nd Author)</li>
-        <li> <b>2022 ISMIR</b>: “DDSP-based singing vocoders: A new subtractive-based synthesizer and a comprehensive evaluation.” <br/><span class="tag_dsp">Vocoder</span> - <a href="https://arxiv.org/abs/2208.04756" target="_blank">Arxiv</a> | <a href="https://ddspvocoder.github.io/ismir-demo/" target="_blank">Demo</a> | <a href="https://github.com/YatingMusic/ddsp-singing-vocoders/" target="_blank">GitHub</a> (co-1st Author)</li>
-        <li> <b>2021 EUSIPCO</b>: “Source separation-based data augmentation for improved joint beat and downbeat tracking.” <br/><span class="tag_dsp">Analysis</span> - <a href="https://arxiv.org/abs/2106.08703" target="_blank">Arxiv</a> | <a href="https://github.com/SunnyCYC/aug4beat" target="_blank">GitHub</a> (3rd Author)</li>
-        <li> <b>2021 AAAI</b>: “Compound word transformer: Learning to compose full-song music over dynamic directed hypergraphs.” <br/><span class="tag_ai">AI Music</span> - <a href="https://arxiv.org/abs/2101.02402" target="_blank">Arxiv</a> | <a href="https://github.com/YatingMusic/compound-word-transformer" target="_blank">GitHub</a> | <a href="2021-aaai.pdf">Slides</a> (1st Author)</li>
-        <li> <b>2020 ISMIR</b>: “Automatic composition of guitar tabs by transformers and groove modeling.”  <br/><span class="tag_ai">AI Music</span> - <a href="https://arxiv.org/abs/2008.01431" target="_blank">Arxiv</a> | <a href="https://ss12f32v.github.io/Guitar-Transformer-Demo/" target="_blank">Demo</a> | <a href="slides/2020-ismir.pdf">Slides</a> (3rd Author)</li>
-        <li> <b>2020 MMSP</b>: “Mixing-specific data augmentation techniques for improved blind violin/piano source separation.” <br/><span class="tag_dsp">Separation</span> - <a href="https://arxiv.org/abs/2008.02480" target="_blank">Arxiv</a> | <a href="https://github.com/SunnyCYC/aug4mss" target="_blank">GitHub</a> (2nd Author)</li>
-        <li> <b>2018 AAAI</b>: “Musegan: Multi-track sequential generative adversarial networks for symbolic music generation and accompaniment.” <br/><span class="tag_ai">AI Music</span> - <a href="https://arxiv.org/abs/1709.06298" target="_blank">Arxiv</a> | <a href="https://github.com/salu133445/musegan" target="_blank">GitHub</a> (co-1st Author)</li>
-        </ul>
-
-        <p><b>Journal Articles:</b></p>
-        <ul class="paper-list">
-        <li> <b>2021 JNMR</b>: “Automatic melody harmonization with triad chords: A comparative study.” <br/><span class="tag_ai">AI Music</span> - <a href="https://arxiv.org/abs/2001.02360" target="_blank">Arxiv</a> | <a href="https://github.com/wayne391/lead-sheet-dataset" target="_blank">GitHub</a> (2nd Author)</li>
-        </ul>
-
-        <p><b>Workshops:</b></p>
-        <ul class="paper-list">
-        <li> <b>2019 ISMIR Late-Breaking</b>: “Jamming with yating: Interactive demonstration of a music composition AI.” <br/><span class="tag_hci">HCI</span> - <a href="https://archives.ismir.net/ismir2019/latebreaking/000003.pdf" target="_blank">Paper</a> | <a href="https://youtu.be/o4Hi1__sAh8?si=lwcCJpRRYtKkrqRJ" target="_blank">Demo</a> (1st Author)</li>
-        <li> <b>2019 ISMIR Late-Breaking</b>: “Learning to generate jazz and pop piano music from audio via MIR techniques.” <br/><span class="tag_hci">HCI</span> - <a href="https://archives.ismir.net/ismir2019/latebreaking/000005.pdf" target="_blank">Paper</a> (2nd Author)</li>
-        </ul>
-
-    </td></tr>
-</table>
-
-<table width="100%" align="center" border="0" cellpadding="0">
-    <tr>
-        <td>
-        <sectionheading>&nbsp;&nbsp;Awards</sectionheading>
-            <ul>
-            <li> Silver Award, 9th Merry Electronics Master Thesis Award (4,500 USD) - <a href="https://www.merry.com.tw/thesis/upload/web/Winnerlist/Winner_list.pdf" target="_blank">Link</a>
-            </ul>
-        </td>
-    </tr>
-</table>
 
 
 </body>
