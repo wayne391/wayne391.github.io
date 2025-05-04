@@ -15,8 +15,8 @@
 	 display: none;
 }
  .tabs .content section h2, .tabs ul li label {
-	 font-size: 18px;
-	 color: #428bff;
+	 font-size: 20px;
+	 color: #0047AB;
 }
  .tabs ul {
 	 list-style-type: none;
