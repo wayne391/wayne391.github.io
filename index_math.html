@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Math Test</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2em;
+      max-width: 880px;  /* increase to expand width */
+      margin: auto;
+      background: #f9f9f9;
+    }
+    textarea {
+      display: none;  /* comment to view markdown */
+      width: 100%;
+      height: 200px;
+    }
+    #preview {
+      margin-top: 20px;
+      background: white;
+      padding: 1em;
+      line-height: 1.8;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Activation Function</h2>
+<textarea id="editor">
+### Overview
+* Sigmoid  \\(x=2y \\)
+* Softmax
+
+Inline math: \\( E = mc^2 \\)
+
+Block math:
+$$
+\\int_a^b f(x) dx = F(b) - F(a)
+$$
+</textarea>
+
+<div id="preview"></div>
+
+<!-- Marked.js -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<!-- MathJax (v3) -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['\\(', '\\)']],
+      displayMath: [['$$', '$$']]
+    },
+    svg: { fontCache: 'global' }
+  };
+</script>
+<script src="assets/js/mathjax/es5/tex-mml-chtml.js"></script>
+<script>
+  const editor = document.getElementById("editor");
+  const preview = document.getElementById("preview");
+
+  function render() {
+    // Render markdown to HTML
+    const html = marked.parse(editor.value);
+    preview.innerHTML = html;
+    // Re-typeset MathJax
+    MathJax.typesetPromise();
+  }
+
+  editor.addEventListener("input", render);
+  render();
+</script>
+
+</body>
+</html>
