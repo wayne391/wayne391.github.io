@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Activation Functions TEST</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2em;
+      max-width: 880px;  /* increase to expand width */
+      margin: auto;
+      background: #f9f9f9;
+    }
+    textarea {
+      /* display: none;  comment to view markdown */
+      width: 100%;
+      height: 200px;
+    }
+    #preview {
+      margin-top: 20px;
+      background: white;
+      padding: 1em;
+      line-height: 1.8;
+      border-radius: 8px;
+    }
+  </style>
+  <link rel="icon" href="/images/logo.png">
+</head>
+<body>
+
+<h2>Activation Functions</h2>
+<textarea id="editor">
+#Pricing Beauty 美麗的標價
+
+</textarea>
+
+<div id="preview"></div>
+
+<!-- Marked.js -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<!-- MathJax (v3) -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['\\(', '\\)']],
+      displayMath: [['$$', '$$']]
+    },
+    svg: { fontCache: 'global' }
+  };
+</script>
+<script src="/assets/js/mathjax/es5/tex-mml-chtml.js"></script>
+<script>
+  const editor = document.getElementById("editor");
+  const preview = document.getElementById("preview");
+
+  function render() {
+    // Render markdown to HTML
+    const html = marked.parse(editor.value);
+    preview.innerHTML = html;
+    // Re-typeset MathJax
+    MathJax.typesetPromise();
+  }
+
+  editor.addEventListener("input", render);
+  render();
+</script>
+
+</body>
+</html>
